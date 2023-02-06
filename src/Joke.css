@@ -1,0 +1,41 @@
+.joke-main {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid salmon;
+    width: 75%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.scorebox {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid darkgray;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    margin: 5px;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+.vote-container {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    align-items: center;
+}
+
+.vote-button{
+    background-color: transparent;
+    border: transparent;
+    font-size: 15px;
+}
+
+.emoji{
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: 0;
+}
