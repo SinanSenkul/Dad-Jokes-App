@@ -10,12 +10,7 @@ class Joke extends Component {
         this.state = {
         };
     }
-
-    async componentDidMount() {
-        this.setState({
-        })
-    }
-
+    
     render() {
         return (
             <div className="joke-main">
